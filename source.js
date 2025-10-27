@@ -19,3 +19,27 @@ const bouncer = (array) => {
   }
   return cleanedArray;
 }
+let myArray = [
+  89.5,
+  91.4,
+  12.3,
+  false,
+  7.8,
+  100.9,
+  "hegemony",
+  "",
+  "",
+  "salty",
+  51.7,
+  NaN,
+  "Shanzu",
+  9.8,
+  undefined,
+  false,
+  true,
+  true,
+  0,
+  0,
+  5.3,
+];
+console.log(bouncer(myArray));
